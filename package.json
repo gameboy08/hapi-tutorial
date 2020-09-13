@@ -1,0 +1,28 @@
+{
+  "name": "hapi-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.0",
+    "bookshelf": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "hapi-swagger": "^13.1.0",
+    "knex": "^0.21.5",
+    "package": "^1.0.1",
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
